@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    Add items and change icons, title, id as per requirement -->
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home"/>
+
+    <item android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart"/>
+
+    <item android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Cart"/>
+
+    <item android:id="@+id/account"
+        android:icon="@drawable/ic_account"
+        android:title="Account"/>
+<!--    -->
+<!--    <item android:id="@+id/login"-->
+<!--        android:icon="@drawable/ic_login"-->
+<!--        android:title="Login"/>-->
+</menu>

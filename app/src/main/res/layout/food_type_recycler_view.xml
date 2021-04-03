@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="220dp"
+    android:layout_height="240dp"
+    android:layout_margin="5dp"
+    android:id="@+id/food_type_linear_layout">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="60dp">
+        <ImageView
+            android:id="@+id/food_type_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/aalu"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/food_type_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="34sp"
+        android:layout_gravity="center"
+        android:text="Paratha"/>
+</LinearLayout>
